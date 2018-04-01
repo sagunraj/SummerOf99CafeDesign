@@ -1,0 +1,29 @@
+.sub-header {
+    background: black;
+}
+
+.sub-header-text {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    text-align: right;
+}
+
+.navbar-brand img {
+    margin-top: -15px;
+}
+
+.text-primary {
+    color: #F87B3C;
+}
+
+.contact-div {
+    background: #509B85;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-div i {
+    margin-bottom: 0.6em;
+}
