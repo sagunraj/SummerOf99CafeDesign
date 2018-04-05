@@ -744,7 +744,7 @@ section.about {
   background: #f9f9f9;
   position: relative;
 }
-section.about::before {
+/* section.about::before {
   content: '';
   display: block;
   background-position: center center;
@@ -756,7 +756,7 @@ section.about::before {
   width: 30vw;
   bottom: -150px;
   right: -10vw;
-}
+} */
 /* ==========================================
    Services Section
    ========================================== */

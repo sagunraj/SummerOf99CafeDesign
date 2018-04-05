@@ -1,11 +1,11 @@
 .sub-header {
-    background: black;
+    background: #F87B3C;
 }
 
 .sub-header-text {
     padding-top: 6px;
     padding-bottom: 6px;
-    color: white;
+    color: black;
     text-align: right;
 }
 
@@ -21,16 +21,32 @@
     background: #509B85;
     padding: 10px;
     margin-top: 20px;
-    width: 100%;
 }
 
 .contact-div i {
     margin-bottom: 0.6em;
 }
 
+
 @media (max-width: 480px) {
    .navbar-btn{
        margin: 0 0 10px 0px;
    }
 
+}
+
+#contact-h3{
+    margin-top: 10px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+.form-holder {
+    margin-top: -5em;
+    background: #F5F5F5;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
