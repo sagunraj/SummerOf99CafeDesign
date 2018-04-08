@@ -221,3 +221,7 @@ $(document).ready(function () {
 
 
 });
+// On Resize
+$(window).resize(function(){ 
+    $('#map').height($( window ).height());
+});
