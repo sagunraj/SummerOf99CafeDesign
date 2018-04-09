@@ -23,6 +23,10 @@
     margin-top: 20px;
 }
 
+footer {
+    background:#00CA85;
+}
+
 .contact-div i {
     margin-bottom: 0.6em;
     font-size: 1.2em;
@@ -55,7 +59,7 @@ section {
 
 
 footer .copyrights {
-    background: #3ACB80;
+    background: #008c5b;
 }
 
 footer .copyrights ul a, footer .copyrights p, footer .copyrights p a {
@@ -66,6 +70,25 @@ footer .copyrights ul a:hover, footer .copyrights p a:hover{
     color: #272727;
 }
 
+footer .header h6::after {
+    background: white;
+}
+
+footer p {
+    color:white;
+}
+
+footer ul.contact a, footer ul.contact li {
+    color: white;
+}
+
+footer ul.contact a:hover, footer ul.contact i:hover, footer .newsletter li a:hover {
+    color: #363636;
+}
+
+footer .contact i {
+    font-style: normal;
+}
 /*.google-maps {
     position: relative;
     padding-bottom: 75%; // This is the aspect ratio
