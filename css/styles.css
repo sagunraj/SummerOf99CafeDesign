@@ -1,11 +1,11 @@
 .sub-header {
-    background: #F87B3C;
+    background: #FF6021;
 }
 
 .sub-header-text {
     padding-top: 6px;
     padding-bottom: 6px;
-    color: black;
+    color: white;
     text-align: right;
 }
 
@@ -18,13 +18,14 @@
 }
 
 .contact-div {
-    background: #509B85;
+    background: #3ACA80;
     padding: 10px;
     margin-top: 20px;
 }
 
 .contact-div i {
     margin-bottom: 0.6em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 480px) {
@@ -44,7 +45,26 @@
 }
 
 .form-holder {
-    margin-top: -5em;
+    margin-bottom: 3em;
+}
+
+section {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+
+footer .copyrights {
+    background: #3ACB80;
+}
+
+footer .copyrights ul a, footer .copyrights p, footer .copyrights p a {
+    color: #FFFFFF;
+}
+
+footer .copyrights ul a:hover, footer .copyrights p a:hover{
+    color: #272727;
+}
 
 /*.google-maps {
     position: relative;
